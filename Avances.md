@@ -31,76 +31,43 @@ Su delimitación corresponde a límites climáticos y topográficos.  Comprende 
 7. *Siberia Occidental*: km^2, balance hídrico promedio de 0,72. 
 Su delimitación corresponde a límites climáticos y topográficos. Comprende la porción subhúmeda de la cuenca del Río Ob (cuenca alta comprende Ríos Ishit, Irtish y Tobol)
 
-![alt-text]("G:\Mi unidad\2018\ROI.png")
-\noindent\makebox[\textwidth]{\includegraphics[width=\paperwidth]{ROI.png}\label{roi}}
-\\{Figura 1: Distribución geográfica de las regiones bajo estudio}
+![Figura 1: Distribución geográfica de las regiones bajo estudio]("Tesis/ROI.png")
 
 
-\subsection{Cuantificación del área cubierta por agua (ACA)}
-\indent Se trabajó con el producto de clasificación de agua realizado por el \textit{Joint Research Centre} en base a imágenes Landsat con una resolución mensual.
-A este dataset se le aplicó un filtro de calidad, donde una imagen debía poseer al menos un 75\% de sus píxeles con observaciones válidas para poder ser incluida en el análisis.
-En el caso de las métricas anuales, esa mínima proporción debía asimismo tener, al menos, 5 datos válidos en el año para poder ser analizado. 
-De esta manera, se analizaron regiones con una menor extensión temporal (los análisis de la Llanura Húngara, el Sahel y Siberia Occidental comienzan en 2000, 2000 y 2006, respectivamente). 
-Se decidió no excluir estas regiones ya que la información puede, de todas formas, ser útil para comprender la dinámica del agua en superficie. 
+### Cuantificación del área cubierta por agua (ACA)
+Se trabajó con el producto de clasificación de agua realizado por el \textit{Joint Research Centre} en base a imágenes Landsat con una resolución mensual. A este dataset se le aplicó un filtro de calidad, donde una imagen debía poseer al menos un 75\% de sus píxeles con observaciones válidas para poder ser incluida en el análisis. En el caso de las métricas anuales, esa mínima proporción debía asimismo tener, al menos, 5 datos válidos en el año para poder ser analizado. De esta manera, se analizaron regiones con una menor extensión temporal (los análisis de la Llanura Húngara, el Sahel y Siberia Occidental comienzan en 2000, 2000 y 2006, respectivamente). Se decidió no excluir estas regiones ya que la información puede, de todas formas, ser útil para comprender la dinámica del agua en superficie. 
 Las regiones boreales (Saskatchewan, Songnen, Hungría y Siberia Occidental), asimismo, no cuentan con datos entre noviembre y febrero 
-dado que, por el bajo ángulo de elevación solar y fotoperiodo en invierno, las imágenes correspondientes no fueron clasificadas originalmente.\\
-\indent Los descriptores del ACA por región fueron calculados en función de la extensión de cada región. Estos son: 
-\textit{ACA promedio anual}, \textit{ACA máximo}, \textit{Permanencia promedio del ACA}, \textit{Variabilidad intra-anual del ACA} y \textit{Variabilidad inter-anual del ACA}. 
-\\
+dado que, por el bajo ángulo de elevación solar y fotoperiodo en invierno, las imágenes correspondientes no fueron clasificadas originalmente.
 
-\subsection{Variables meteorológicas}
-\indent La descripción de la variación del agua en el suelo fue realizada a partir de GRACE. Los valores presentados de TWS corresponden a variaciones, 
-mensuales o anuales, respecto a la media (base tomada para el período 2004-2009). \\
-\indent Los datos de precipitación y evapotranspiración potencial fueron derivados a partir de los datos TerraClimate, 
-el cual usa información de WorldClim, CRU el JRA55 para generar interpolaciones con una resolución temporal mensual y espacial de \~0,04º.
+Los descriptores del ACA por región fueron calculados en función de la extensión de cada región. Estos son: 
+*ACA promedio anual*, *ACA máximo*, *Permanencia promedio del ACA*, *Variabilidad intra-anual del ACA* y *Variabilidad inter-anual del ACA*. 
 
-\subsection{Variables edáficas}
-\indent Se obtuvieron valores promedio de contenido de carbono orgánico (SOC), densidad aparente, \colorbox{yellow}{partición arena/limo, arena/arcilla...}
- a partir del \textit{Global Soil Dataset for Earth System Modelling}
+### Variables meteorológicas
+La descripción de la variación del agua en el suelo fue realizada a partir de GRACE. Los valores presentados de TWS corresponden a variaciones, mensuales o anuales, respecto a la media (base tomada para el período 2004-2009).
+Los datos de precipitación y evapotranspiración potencial fueron derivados a partir de los datos TerraClimate, el cual usa información de WorldClim, CRU el JRA55 para generar interpolaciones con una resolución temporal mensual y espacial de ~0,04º.
+
+### Variables edáficas
+Se obtuvieron valores promedio de contenido de carbono orgánico (SOC), densidad aparente, ==partición arena/limo, arena/arcilla...==
+ a partir del *Global Soil Dataset for Earth System Modelling*
 
 
-\section{Resultados}
+## Resultados
 
-\indent A lo largo de las hiperllanuras se pueden diferenciar dos comportamientos del agua en superficie. 
-Por un lado, una distribución restringida a los cursos de agua y, en menor medida, a cuerpos de agua de pequeño tamaño y corta permanencia. 
-Por otro lado, una mayor expansión del agua por sobre las llanuras de inundación y por cuerpos de agua de diversa extensión y permanencia. \\
-\indent Este patrón de comportamiento está relacionado al balance hídrico, en tanto 
-se observó un cambio progresivo de la primera situación hacia la segunda, en igual sentido que el progresivo aumento del balance hídrico, aunque no en iguales magnitudes. 
-Tanto en Australia como en el Sahel, el agua estuvo restringida a los cursos predominantes (Río Murray y afluentes del Río Darling en Australia y el Río Níger en el Sahel), 
-aunque también se encontraron algunos cuerpos de agua de pequeño tamaño. 
-En Songnen, debido a que el Río Nen posee una llanura de inundación muy amplia, la situación es intermedia entre restringida y extensiva. 
-El agua se concentró sobre la llanura de inundación y sus cercanías, con cuerpos de mayores tamaños.
-En Pampa-Chaco, por otro lado, se encontraron diferencias entre el Norte predominantemente semiárido y el Sur subhúmedo. 
-En el Norte, el agua se restringió a los cursos de agua que allí se extienden; 
-en una región intermedia se detectó la presencia de numerosos cuerpos de agua de pequeño tamaño, 
-mientras que en el Sur predominaron los cuerpos de agua de diversos tamaños.
-La Llanura Húngara, si bien posee un balance mayor a Songnen y Pampa-Chaco, presentó una extensión del agua restringida al Río Tisza,
- con poca ampliación sobre sus proximidades. 
- Cabe resaltar la gran diferencia entre esta región y Saskatchewan y Siberia Occidental, que bajo el mismo balance promedio,
-  la extensión del ACA fue en ambas regiones marcadamente extensiva, con una presencia importante de cuerpos de agua de diversos tamaños a lo largo de toda la región.\\
+A lo largo de las hiperllanuras se pueden diferenciar dos comportamientos del agua en superficie. Por un lado, una distribución restringida a los cursos de agua y, en menor medida, a cuerpos de agua de pequeño tamaño y corta permanencia. Por otro lado, una mayor expansión del agua por sobre las llanuras de inundación y por cuerpos de agua de diversa extensión y permanencia.
+
+Este patrón de comportamiento está relacionado al balance hídrico, en tanto se observó un cambio progresivo de la primera situación hacia la segunda, en igual sentido que el progresivo aumento del balance hídrico, aunque no en iguales magnitudes. Tanto en Australia como en el Sahel, el agua estuvo restringida a los cursos predominantes (Río Murray y afluentes del Río Darling en Australia y el Río Níger en el Sahel), aunque también se encontraron algunos cuerpos de agua de pequeño tamaño. En Songnen, debido a que el Río Nen posee una llanura de inundación muy amplia, la situación es intermedia entre restringida y extensiva. El agua se concentró sobre la llanura de inundación y sus cercanías, con cuerpos de mayores tamaños. En Pampa-Chaco, por otro lado, se encontraron diferencias entre el Norte predominantemente semiárido y el Sur subhúmedo. En el Norte, el agua se restringió a los cursos de agua que allí se extienden; en una región intermedia se detectó la presencia de numerosos cuerpos de agua de pequeño tamaño, mientras que en el Sur predominaron los cuerpos de agua de diversos tamaños. La Llanura Húngara, si bien posee un balance mayor a Songnen y Pampa-Chaco, presentó una extensión del agua restringida al Río Tisza, con poca ampliación sobre sus proximidades. Cabe resaltar la gran diferencia entre esta región y Saskatchewan y Siberia Occidental, que bajo el mismo balance promedio, la extensión del ACA fue en ambas regiones marcadamente extensiva, con una presencia importante de cuerpos de agua de diversos tamaños a lo largo de toda la región.
  
- \indent La relación entre la extensión del agua en superficie y el balance hídrico es esperable, 
- ya que a relaciones más cercanas a la unidad hay una menor limitación hídrica, 
- lo cual puede más frecuentemente traducirse en excesos hídricos que se acumulan en la superficie (Figura 2). 
- Esta relación tiene como salvedad a la Llanura Húngara, como se observaba anteriormente, 
- ya que posee balance subhúmedo y sin embargo, tiene un comportamiento de agua en superficie restringido en el área.
-\\\colorbox{yellow}{figuras de la extension del agua en SI?}\\
+La relación entre la extensión del agua en superficie y el balance hídrico es esperable, ya que a relaciones más cercanas a la unidad hay una menor limitación hídrica, lo cual puede más frecuentemente traducirse en excesos hídricos que se acumulan en la superficie (Figura 2). Esta relación tiene como salvedad a la Llanura Húngara, como se observaba anteriormente, ya que posee balance subhúmedo y sin embargo, tiene un comportamiento de agua en superficie restringido en el área. ==figuras de la extension del agua en SI?==
 
-\indent El área cubierta por agua (ACA) promedio en las regiones estudiadas no excedió el 8\% de la superficie total de cada región, 
-y el área máxima registrada no superó, en ningún caso, el 12\% (Tabla 1). 
-La permanencia promedio del ACA fue menor a los 4 meses y, analizando series temporales, 
-se observó una asociación directa fuerte (R\textsuperscript{2} $>$ 0,7) entre la extensión del ACA y su permanencia. 
-Es decir, que incrementos del ACA se asociaron a incrementos en la permanencia del agua en la superficie en el mismo año.\\
+El área cubierta por agua (ACA) promedio en las regiones estudiadas no excedió el 8% de la superficie total de cada región, y el área máxima registrada no superó, en ningún caso, el 12% (Tabla 1). La permanencia promedio del ACA fue menor a los 4 meses y, analizando series temporales, se observó una asociación directa fuerte (R\textsuperscript{2} $>$ 0,7) entre la extensión del ACA y su permanencia. Es decir, que incrementos del ACA se asociaron a incrementos en la permanencia del agua en la superficie en el mismo año.
 
-\indent Si bien las regiones de balances semiáridos presentaron menores ACA promedio, 
-mientras que para las regiones subhúmedas los valores fueron mayores, 
-la variabilidad relativa (coeficiente de variación, CV) no siguió un patrón de igual sentido (Tabla 1). 
-La variabilidad interanual, en todos los casos, se encontró entre un 20 y 33\%. 
-Los mayores valores pertenecieron a Saskatchewan, Siberia Occidental y Australia. 
-Por otro lado, a nivel mensual, los valores promedio siguieron el mismo patrón que los valores anuales, 
-y la variabilidad intra anual varió entre 10 y 27\%, siendo Sahel la región con la mayor variabilidad, seguida por Songnen, Australia y Siberia Occidental (Tabla 1). 
-En general, la mayor variabilidad intra-anual está asociada a la mayor estacionalidad de la precipitación y a la ocurrencia del deshielo (Figura 3a-f). \\
+Si bien las regiones de balances semiáridos presentaron menores ACA promedio, mientras que para las regiones subhúmedas los valores fueron mayores, la variabilidad relativa (coeficiente de variación, CV) no siguió un patrón de igual sentido (Tabla 1). La variabilidad interanual, en todos los casos, se encontró entre un 20 y 33%. Los mayores valores pertenecieron a Saskatchewan, Siberia Occidental y Australia. Por otro lado, a nivel mensual, los valores promedio siguieron el mismo patrón que los valores anuales, y la variabilidad intra anual varió entre 10 y 27%, siendo Sahel la región con la mayor variabilidad, seguida por Songnen, Australia y Siberia Occidental (Tabla 1). En general, la mayor variabilidad intra-anual está asociada a la mayor estacionalidad de la precipitación y a la ocurrencia del deshielo (Figura 3a-f). 
 
+| Región| Régimen Hídrico| PPT promedio (mm/año)| PET promedio (mm/año)| ACA promedio (%)| ACA máximo (%) | Duración promedio (meses)| Variabilidad intra anual (%) | Variabilidad inter anual (%)|
+| ------------- |:-------------:| -----:|---|---|---|---|---|---|
+| Australia     | Semiárido (0,30) | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 \noindent\makebox[\textwidth]{
 \fontsize{9}{11}\selectfont
 \begin{tabular}{ |p{2.7cm}||p{2.7cm}|p{1.5cm}|p{2cm}|p{2cm}|p{1.2cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}| }
