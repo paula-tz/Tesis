@@ -16,23 +16,22 @@ Se seleccionaron siete hiperllanuras (*i.e.* áreas extensas con pendiente regio
 La delimitación de cada región responde a los límites de balance hídrico, a los límites topográficos por presencia de cadenas montañosas, y a los límites hidrológicos en aquellas regiones donde hay cursos de agua con influencia exógena al sistema bajo estudio *e.g.* los ríos Danubio, Paraná y Songhua en la Llanura Húngara, Pampa-Chaco y Songnen, respectivamente).
 Quedaron entonces definidas las siguientes regiones \colorbox{yellow}{quizás no va esto}:
 
-1 *Australia*: km^2, balance hídrico promedio de 0,30. 
+1. *Australia*: km^2, balance hídrico promedio de 0,30. 
 Su delimitación corresponde a límites climáticos. Abarca la porción semiárida de la cuenca Murray-Darling (cuenca alta). 
-2 \item \textit{Sahel}: km\textsuperscript{2}, balance hídrico promedio de $0,31$. 
+2. *Sahel*: km^2, balance hídrico promedio de 0,31. 
 Su delimitación corresponde a límites climáticos. Abarca la porción semiárida de la cuenca del Río Niger (cuenca media).
-\item \textit{Songnen}: km\textsuperscript{2}, balance hídrico promedio de $0,52$. 
+3. *Songnen*: km^2, balance hídrico promedio de 0,52. 
 Su delimitación corresponde a límites topográficos. Comprende la cuenca alta del Río Nen. 
-\item \textit{Pampa-Chaco}: km\textsuperscript{2}, balance hídrico promedio de $0,56$. 
+4. *Pampa-Chaco*: km^2, balance hídrico promedio de 0,56. 
 Su delimitación corresponde a límites climáticos y, hacia el este, a la exclusión del área cercana al Río Paraná
-\item \textit{Llanura Húngara}: km\textsuperscript{2}, balance hídrico promedio de $0,66$. 
+5. *Llanura Húngara*: km^2, balance hídrico promedio de 0,66. 
 Su delimitación corresponde a límites topográficos y, hacia el oeste, a la exclusión del Río Danubio y su área cercana.
- \item \textit{Saskatchewan}: km\textsuperscript{2}, balance hídrico promedio de $0,66$.
-  Su delimitación corresponde a límites climáticos y topográficos.  Comprende la porción subhúmeda de cuenca del Río Saskatchewan.
- \item \textit{Siberia Occidental}: km\textsuperscript{2}, balance hídrico promedio de $0,72$. 
- Su delimitación corresponde a límites climáticos y topográficos. Comprende la porción subhúmeda de la cuenca del Río Ob (cuenca alta comprende Ríos Ishit, Irtish y Tobol)
-\end{enumerate}
+6. *Saskatchewan*: km^2, balance hídrico promedio de 0,66.
+Su delimitación corresponde a límites climáticos y topográficos.  Comprende la porción subhúmeda de cuenca del Río Saskatchewan.
+7. *Siberia Occidental*: km^2, balance hídrico promedio de 0,72. 
+Su delimitación corresponde a límites climáticos y topográficos. Comprende la porción subhúmeda de la cuenca del Río Ob (cuenca alta comprende Ríos Ishit, Irtish y Tobol)
 
-
+![alt-text]("G:\Mi unidad\2018\ROI.png")
 \noindent\makebox[\textwidth]{\includegraphics[width=\paperwidth]{ROI.png}\label{roi}}
 \\{Figura 1: Distribución geográfica de las regiones bajo estudio}
 
