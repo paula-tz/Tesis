@@ -16,26 +16,26 @@ Se seleccionaron siete hiperllanuras (*i.e.* áreas extensas con pendiente regio
 La delimitación de cada región responde a los límites de balance hídrico, a los límites topográficos por presencia de cadenas montañosas, y a los límites hidrológicos en aquellas regiones donde hay cursos de agua con influencia exógena al sistema bajo estudio *e.g.* los ríos Danubio, Paraná y Songhua en la Llanura Húngara, Pampa-Chaco y Songnen, respectivamente).
 Quedaron entonces definidas las siguientes regiones \colorbox{yellow}{quizás no va esto}:
 
-1. *Australia*: km^2, balance hídrico promedio de 0,30. 
+1. *Australia*: km<sup>2</sup>, balance hídrico promedio de 0,30. 
 Su delimitación corresponde a límites climáticos. Abarca la porción semiárida de la cuenca Murray-Darling (cuenca alta). 
-2. *Sahel*: km^2, balance hídrico promedio de 0,31. 
+2. *Sahel*: km<sup>2</sup>, balance hídrico promedio de 0,31. 
 Su delimitación corresponde a límites climáticos. Abarca la porción semiárida de la cuenca del Río Niger (cuenca media).
-3. *Songnen*: km^2, balance hídrico promedio de 0,52. 
+3. *Songnen*: km<sup>2</sup>, balance hídrico promedio de 0,52. 
 Su delimitación corresponde a límites topográficos. Comprende la cuenca alta del Río Nen. 
-4. *Pampa-Chaco*: km^2, balance hídrico promedio de 0,56. 
+4. *Pampa-Chaco*: km<sup>2</sup>, balance hídrico promedio de 0,56. 
 Su delimitación corresponde a límites climáticos y, hacia el este, a la exclusión del área cercana al Río Paraná
-5. *Llanura Húngara*: km^2, balance hídrico promedio de 0,66. 
+5. *Llanura Húngara*: km<sup>2</sup>, balance hídrico promedio de 0,66. 
 Su delimitación corresponde a límites topográficos y, hacia el oeste, a la exclusión del Río Danubio y su área cercana.
-6. *Saskatchewan*: km^2, balance hídrico promedio de 0,66.
+6. *Saskatchewan*: km<sup>2</sup>, balance hídrico promedio de 0,66.
 Su delimitación corresponde a límites climáticos y topográficos.  Comprende la porción subhúmeda de cuenca del Río Saskatchewan.
-7. *Siberia Occidental*: km^2, balance hídrico promedio de 0,72. 
+7. *Siberia Occidental*: km<sup>2</sup>, balance hídrico promedio de 0,72. 
 Su delimitación corresponde a límites climáticos y topográficos. Comprende la porción subhúmeda de la cuenca del Río Ob (cuenca alta comprende Ríos Ishit, Irtish y Tobol)
 
 ![Figura 1: Distribución geográfica de las regiones bajo estudio]("Tesis/ROI.png")
 
 
 ### Cuantificación del área cubierta por agua (ACA)
-Se trabajó con el producto de clasificación de agua realizado por el \textit{Joint Research Centre} en base a imágenes Landsat con una resolución mensual. A este dataset se le aplicó un filtro de calidad, donde una imagen debía poseer al menos un 75\% de sus píxeles con observaciones válidas para poder ser incluida en el análisis. En el caso de las métricas anuales, esa mínima proporción debía asimismo tener, al menos, 5 datos válidos en el año para poder ser analizado. De esta manera, se analizaron regiones con una menor extensión temporal (los análisis de la Llanura Húngara, el Sahel y Siberia Occidental comienzan en 2000, 2000 y 2006, respectivamente). Se decidió no excluir estas regiones ya que la información puede, de todas formas, ser útil para comprender la dinámica del agua en superficie. 
+Se trabajó con el producto de clasificación de agua realizado por el *Joint Research Centre* en base a imágenes Landsat con una resolución mensual. A este dataset se le aplicó un filtro de calidad, donde una imagen debía poseer al menos un 75% de sus píxeles con observaciones válidas para poder ser incluida en el análisis. En el caso de las métricas anuales, esa mínima proporción debía asimismo tener, al menos, 5 datos válidos en el año para poder ser analizado. De esta manera, se analizaron regiones con una menor extensión temporal (los análisis de la Llanura Húngara, el Sahel y Siberia Occidental comienzan en 2000, 2000 y 2006, respectivamente). Se decidió no excluir estas regiones ya que la información puede, de todas formas, ser útil para comprender la dinámica del agua en superficie. 
 Las regiones boreales (Saskatchewan, Songnen, Hungría y Siberia Occidental), asimismo, no cuentan con datos entre noviembre y febrero 
 dado que, por el bajo ángulo de elevación solar y fotoperiodo en invierno, las imágenes correspondientes no fueron clasificadas originalmente.
 
@@ -59,13 +59,13 @@ Este patrón de comportamiento está relacionado al balance hídrico, en tanto s
  
 La relación entre la extensión del agua en superficie y el balance hídrico es esperable, ya que a relaciones más cercanas a la unidad hay una menor limitación hídrica, lo cual puede más frecuentemente traducirse en excesos hídricos que se acumulan en la superficie (Figura 2). Esta relación tiene como salvedad a la Llanura Húngara, como se observaba anteriormente, ya que posee balance subhúmedo y sin embargo, tiene un comportamiento de agua en superficie restringido en el área. ==figuras de la extension del agua en SI?==
 
-El área cubierta por agua (ACA) promedio en las regiones estudiadas no excedió el 8% de la superficie total de cada región, y el área máxima registrada no superó, en ningún caso, el 12% (Tabla 1). La permanencia promedio del ACA fue menor a los 4 meses y, analizando series temporales, se observó una asociación directa fuerte (R\textsuperscript{2} $>$ 0,7) entre la extensión del ACA y su permanencia. Es decir, que incrementos del ACA se asociaron a incrementos en la permanencia del agua en la superficie en el mismo año.
+El área cubierta por agua (ACA) promedio en las regiones estudiadas no excedió el 8% de la superficie total de cada región, y el área máxima registrada no superó, en ningún caso, el 12% (Tabla 1). La permanencia promedio del ACA fue menor a los 4 meses y, analizando series temporales, se observó una asociación directa fuerte (R<sup>2</sup> > 0,7) entre la extensión del ACA y su permanencia. Es decir, que incrementos del ACA se asociaron a incrementos en la permanencia del agua en la superficie en el mismo año.
 
 Si bien las regiones de balances semiáridos presentaron menores ACA promedio, mientras que para las regiones subhúmedas los valores fueron mayores, la variabilidad relativa (coeficiente de variación, CV) no siguió un patrón de igual sentido (Tabla 1). La variabilidad interanual, en todos los casos, se encontró entre un 20 y 33%. Los mayores valores pertenecieron a Saskatchewan, Siberia Occidental y Australia. Por otro lado, a nivel mensual, los valores promedio siguieron el mismo patrón que los valores anuales, y la variabilidad intra anual varió entre 10 y 27%, siendo Sahel la región con la mayor variabilidad, seguida por Songnen, Australia y Siberia Occidental (Tabla 1). En general, la mayor variabilidad intra-anual está asociada a la mayor estacionalidad de la precipitación y a la ocurrencia del deshielo (Figura 3a-f). 
 
 | Región| Régimen Hídrico| PPT promedio (mm/año)| PET promedio (mm/año)| ACA promedio (%)| ACA máximo (%) | Duración promedio (meses)| Variabilidad intra anual (%) | Variabilidad inter anual (%)|
 | ------------- |:-------------:| -----:|---|---|---|---|---|---|
-| Australia     | Semiárido (0,30) | $1600 |
+| Australia     | Semiárido (0,30) | 462 ± 103 | |0,68 ± 0,23|1,21|2,17±0,6|16,28|33,83|
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 \noindent\makebox[\textwidth]{
